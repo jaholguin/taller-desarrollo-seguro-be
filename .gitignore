@@ -1,0 +1,29 @@
+# ⚙️ Archivos de configuración y entornos
+.env
+.env.* 
+
+# 💻 Dependencias
+node_modules/
+dist/
+build/
+
+# 🛠 Archivos temporales
+*.log
+*.tmp
+*.cache
+*.tsbuildinfo
+
+# 🚫 macOS
+.DS_Store
+
+# 📦 Lock files (opcional ignorar uno si usas el otro)
+package-lock.json
+# yarn.lock
+
+# ⚒️ VSCode settings
+.vscode/
+.idea/
+
+# 📄 Output de herramientas de análisis
+snyk-*.json
+audit-*.json
